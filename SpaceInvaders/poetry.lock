@@ -282,6 +282,20 @@ pep8 = ["flake8"]
 tests = ["pandas", "pillow", "tensorflow", "keras", "pytest", "pytest-xdist", "pytest-cov"]
 
 [[package]]
+name = "keras-rl2"
+version = "1.0.4"
+description = "Deep Reinforcement Learning for Tensorflow 2 Keras"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+tensorflow = ">=2.1.0"
+
+[package.extras]
+gym = ["gym"]
+
+[[package]]
 name = "markdown"
 version = "3.3.4"
 description = "Python implementation of Markdown."
@@ -718,7 +732,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "c7082e90d62d7178c4d6a1c4239b338d802ea0edcb5ad3fa0a8054bf38fb3f46"
+content-hash = "f1b532a1a93a5d17ff2c23346faa71745f245c3cc099760e5f4e905190e4f27d"
 
 [metadata.files]
 absl-py = [
@@ -889,6 +903,9 @@ isort = [
 keras-preprocessing = [
     {file = "Keras_Preprocessing-1.1.2-py2.py3-none-any.whl", hash = "sha256:7b82029b130ff61cc99b55f3bd27427df4838576838c5b2f65940e4fcec99a7b"},
     {file = "Keras_Preprocessing-1.1.2.tar.gz", hash = "sha256:add82567c50c8bc648c14195bf544a5ce7c1f76761536956c3d2978970179ef3"},
+]
+keras-rl2 = [
+    {file = "keras_rl2-1.0.4-py3-none-any.whl", hash = "sha256:d99fb1f72c38516ebfe0ca7c6863a5fe0e4581901f8db94ea066ba51bd48e0bf"},
 ]
 markdown = [
     {file = "Markdown-3.3.4-py3-none-any.whl", hash = "sha256:96c3ba1261de2f7547b46a00ea8463832c921d3f9d6aba3f255a6f71386db20c"},
